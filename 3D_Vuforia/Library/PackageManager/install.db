@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.ptc.vuforia.engine": {
+      "tarball": {
+        "hash": "b724a8714d15",
+        "mtime": 1721130964000,
+        "size": 139148898,
+        "localPath": "/Users/xuyiping/Unity_Project/HybridGifts/3DCore_BRP/Packages/com.ptc.vuforia.engine-10.25.4.tgz"
+      }
+    }
+  }
+}

@@ -1,4 +1,0 @@
-repository "3DCore_URP@Yiping1@cloud"
-  path "/"
-    br "/main"
-    co "/main"
