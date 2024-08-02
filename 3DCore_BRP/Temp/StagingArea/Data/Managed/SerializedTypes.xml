@@ -1,0 +1,8 @@
+<linker>
+	<assembly fullname="ReadyPlayerMe.AvatarCreator">
+		<type fullname="ReadyPlayerMe.AvatarCreator.AvatarProperties" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="ReadyPlayerMe.Core">
+		<type fullname="ReadyPlayerMe.Core.AvatarMetadata" preserve="nothing" serialized="true"/>
+	</assembly>
+</linker>
