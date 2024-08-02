@@ -1,0 +1,303 @@
+Unity Editor version:    2022.3.19f1 (244b723c30a6)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.5 (Build 23F79)
+Darwin version:          23.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/xuyiping/Unity_Project/HybridGifts/3DCore_BRP
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64169
+Successfully changed project path to: /Users/xuyiping/Unity_Project/HybridGifts/3DCore_BRP
+/Users/xuyiping/Unity_Project/HybridGifts/3DCore_BRP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8578468864] Host "[IP] 10.247.203.99 [Port] 0 [Flags] 2 [Guid] 1542071937 [EditorId] 1542071937 [Version] 1048832 [Id] OSXEditor(0,xuyipingdeMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8578468864] Host "[IP] 10.247.203.99 [Port] 0 [Flags] 2 [Guid] 1542071937 [EditorId] 1542071937 [Version] 1048832 [Id] OSXEditor(0,xuyipingdeMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 25.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/xuyiping/Unity_Project/HybridGifts/3DCore_BRP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56810
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.006363 seconds.
+- Loaded All Assemblies, in  0.532 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+[usbmuxd] Attached: 9 00008101-0002515A21A3003A
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 349 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.877 seconds
+Domain Reload Profiling: 1410ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (134ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (232ms)
+				TypeCache.ScanAssembly (210ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (878ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (803ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (653ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.945 seconds
+Refreshing native plugins compatible for Editor in 3.13 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.970 seconds
+Domain Reload Profiling: 1919ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (743ms)
+		LoadAssemblies (454ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (332ms)
+			TypeCache.Refresh (304ms)
+				TypeCache.ScanAssembly (258ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (971ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (745ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (587ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 2.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3885 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (55.6 KB). Loaded Objects now: 4341.
+Memory consumption went from 156.3 MB to 156.2 MB.
+Total: 42.573625 ms (FindLiveObjects: 0.565375 ms CreateObjectMapping: 0.159125 ms MarkObjects: 39.395458 ms  DeleteObjects: 2.449916 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 142271.055917 seconds.
+  path: Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/66ac10cbcefab44aa903bcad.prefab
+  artifactKey: Guid(20540b90e556542f1ab5565e40b98591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/66ac10cbcefab44aa903bcad.prefab using Guid(20540b90e556542f1ab5565e40b98591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be97f77a076c5dffda9ea3e9f0076376') in 1.361370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 210
+========================================================================
+Received Import Request.
+  Time since last request: 34.889257 seconds.
+  path: Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934
+  artifactKey: Guid(83afb3316ce9c4524a1f4157e4c4d7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934 using Guid(83afb3316ce9c4524a1f4157e4c4d7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8047af7b1775b0a652875a94fe4881') in 0.045103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3120.677426 seconds.
+  path: Assets/Ready Player Me/Resources/Avatar.fbx
+  artifactKey: Guid(5e39e6eb7a06c45f4a27d1493a827bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Resources/Avatar.fbx using Guid(5e39e6eb7a06c45f4a27d1493a827bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd882d8d3479cf42aa97459f450ee3c68') in 0.939091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 231.770703 seconds.
+  path: Assets/Ready Player Me/Resources/Avatar.fbx
+  artifactKey: Guid(5e39e6eb7a06c45f4a27d1493a827bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Resources/Avatar.fbx using Guid(5e39e6eb7a06c45f4a27d1493a827bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345e1c4b3ad908f5a102fdc026a2ffa5') in 0.646997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 219
+========================================================================
+Received Import Request.
+  Time since last request: 3603.445919 seconds.
+  path: Assets/Ready Player Me/Core/ReadyPlayerMe.Core.asmdef
+  artifactKey: Guid(96af4ea235d92d245a095007c6ca3701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Core/ReadyPlayerMe.Core.asmdef using Guid(96af4ea235d92d245a095007c6ca3701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592093b65acb112ac4b3b4324a95f931') in 0.030669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.063023 seconds.
+  path: Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/Avatar@Samba Dancing.fbx
+  artifactKey: Guid(9ec92125a0b9343b98e88ff529ca5508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/Avatar@Samba Dancing.fbx using Guid(9ec92125a0b9343b98e88ff529ca5508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9b7808091345b0d6eb6bcb4e71b3ab') in 0.365071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 220
+========================================================================
+Received Import Request.
+  Time since last request: 107.255554 seconds.
+  path: Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/Archive@Samba Dancing.fbx
+  artifactKey: Guid(e2df3bc6cf40248d3b4406b56865a7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/Archive@Samba Dancing.fbx using Guid(e2df3bc6cf40248d3b4406b56865a7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b696bef23094392efeb51722ee470e9') in 0.411135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 220
+========================================================================
+Received Import Request.
+  Time since last request: 42.402029 seconds.
+  path: Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/Samba Dancing.fbx
+  artifactKey: Guid(097334df440024454a6fcd33ac556a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/Samba Dancing.fbx using Guid(097334df440024454a6fcd33ac556a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59088b6068666c71b65583aea25872d') in 0.260750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 220
+========================================================================
+Received Import Request.
+  Time since last request: 123.077470 seconds.
+  path: Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/Avatar@Samba Dancing 1.fbx
+  artifactKey: Guid(50dedba3c490640ac89d0c5dc66740aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/Avatar@Samba Dancing 1.fbx using Guid(50dedba3c490640ac89d0c5dc66740aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3420b157f0669ac5fbb136782cd1dd6') in 0.664144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 220
+========================================================================
+Received Import Request.
+  Time since last request: 213.993101 seconds.
+  path: Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/Avatar@Samba Dancing.fbx
+  artifactKey: Guid(9ec92125a0b9343b98e88ff529ca5508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/Avatar@Samba Dancing.fbx using Guid(9ec92125a0b9343b98e88ff529ca5508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e688f20a836c277c40c9a68da6c83508') in 0.164786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 220
+========================================================================
+Received Import Request.
+  Time since last request: 45.042602 seconds.
+  path: Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/Avatar@Samba Dancing.fbx
+  artifactKey: Guid(9ec92125a0b9343b98e88ff529ca5508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/Avatar@Samba Dancing.fbx using Guid(9ec92125a0b9343b98e88ff529ca5508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfa4fdb4e53f4eb8984a7fd75a355e7') in 1.249152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 234
+========================================================================
+Received Import Request.
+  Time since last request: 41.524055 seconds.
+  path: Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/Avatar@Samba Dancing.fbx
+  artifactKey: Guid(9ec92125a0b9343b98e88ff529ca5508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/Avatar@Samba Dancing.fbx using Guid(9ec92125a0b9343b98e88ff529ca5508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fab8b0bf38864c04913523b16ae495') in 0.259313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 234
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/outfit-casual-06-v2-f-top-N.jpg
+  artifactKey: Guid(05524fdc4acec4d749b5f9a6d141e65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ready Player Me/Avatars/66ac10cbcefab44aa903bcad/2fac66e374c947c41bc74325c6e3d934/outfit-casual-06-v2-f-top-N.jpg using Guid(05524fdc4acec4d749b5f9a6d141e65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83ec26e98aa3b32f5c6ea37c6c947c3') in 0.236750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
