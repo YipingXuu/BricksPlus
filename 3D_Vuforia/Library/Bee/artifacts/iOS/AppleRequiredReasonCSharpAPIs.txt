@@ -1,3 +1,0 @@
-File timestamp APIs usage:
-	"System.IO.File::GetLastWriteTime" used in assemblies:		ReadyPlayerMe.Core
-	"System.IO.File::GetLastWriteTimeUtc" used in assemblies:		ReadyPlayerMe.Core

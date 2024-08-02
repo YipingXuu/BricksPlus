@@ -1,4 +1,0 @@
-repository "HybridGifts@Yiping1@cloud"
-  path "/"
-    br "/main"
-    co "/main"

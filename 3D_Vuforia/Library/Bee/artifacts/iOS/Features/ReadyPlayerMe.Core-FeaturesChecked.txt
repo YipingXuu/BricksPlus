@@ -1,3 +1,0 @@
-UnityEngine.Microphone
-System.IO.File::GetLastWriteTime
-System.IO.File::GetLastWriteTimeUtc
