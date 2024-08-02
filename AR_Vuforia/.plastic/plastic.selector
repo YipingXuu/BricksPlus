@@ -1,0 +1,4 @@
+repository "AR__Vuforia@Yiping1@cloud"
+  path "/"
+    br "/main"
+    co "/main"
