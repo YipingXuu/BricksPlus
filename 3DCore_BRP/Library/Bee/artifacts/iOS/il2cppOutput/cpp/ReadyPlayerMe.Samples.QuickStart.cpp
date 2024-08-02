@@ -2709,7 +2709,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersonalAvatarLoader_OnOpenPersonalAvata
 		String_t* L_3;
 		L_3 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralA493FF06F94D0907E2F1797D03C4EB68CE5751F2, L_2, _stringLiteral24517F5828A370FF123A454C885703A3FCB024E9, NULL);
 		NullCheck(L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_0, L_3);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_0, L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___personalAvatarPanel;
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
@@ -2743,7 +2743,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersonalAvatarLoader_OnLinkButton_mF6A0A
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___linkText;
 		NullCheck(L_0);
 		String_t* L_1;
-		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(72, L_0);
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(74, L_0);
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_OpenURL_mE748FA4D503715DEE12BCA4BDD8A5305AE41DB89(L_1, NULL);
 		return;
@@ -2770,7 +2770,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersonalAvatarLoader_OnLoadAvatarButton_
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___openPersonalAvatarPanelButtonText;
 		NullCheck(L_2);
 		String_t* L_3;
-		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(72, L_2);
+		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(74, L_2);
 		__this->___defaultButtonText = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___defaultButtonText), (void*)L_3);
 		PersonalAvatarLoader_SetActiveLoading_mC4001A5F6E6752480C84CDD9A914383E08519248(__this, (bool)1, _stringLiteralBE86F00232CDCD6B0AE55F07CC02A298271564FA, NULL);
@@ -2865,7 +2865,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersonalAvatarLoader_SetActiveLoading_mC
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___openPersonalAvatarPanelButtonText;
 		String_t* L_1 = ___1_text;
 		NullCheck(L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_0, L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_0, L_1);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___openPersonalAvatarPanelButton;
 		bool L_3 = ___0_enable;
 		NullCheck(L_2);

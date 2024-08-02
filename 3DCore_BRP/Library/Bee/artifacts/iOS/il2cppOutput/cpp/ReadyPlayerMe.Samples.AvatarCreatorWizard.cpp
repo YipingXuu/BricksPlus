@@ -9693,7 +9693,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugPanel_AddLogWithDuration_mA25B2DF7D
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3 = L_2;
 		NullCheck(L_3);
 		String_t* L_4;
-		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(72, L_3);
+		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(74, L_3);
 		String_t* L_5 = ___0_log;
 		float L_6 = ___1_time;
 		float L_7 = L_6;
@@ -9703,7 +9703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugPanel_AddLogWithDuration_mA25B2DF7D
 		String_t* L_10;
 		L_10 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_4, L_9, NULL);
 		NullCheck(L_3);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_3, L_10);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_3, L_10);
 	}
 
 IL_0033:
@@ -9754,7 +9754,7 @@ IL_000f:
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3 = L_2->___text;
 		String_t* L_4 = ___0_text;
 		NullCheck(L_3);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_3, L_4);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_3, L_4);
 		LoadingData_tD09EE52F158ED2D70868794309B17EA6815A06B2* L_5 = __this->___fullscreenLoading;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = L_5->___container;
@@ -9778,7 +9778,7 @@ IL_004a:
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_12 = L_11->___text;
 		String_t* L_13 = ___0_text;
 		NullCheck(L_12);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_12, L_13);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_12, L_13);
 		LoadingData_tD09EE52F158ED2D70868794309B17EA6815A06B2* L_14 = __this->___popupLoading;
 		NullCheck(L_14);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = L_14->___container;
@@ -10359,11 +10359,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfileUI_SetProfileData_m44491D0BC9F65C
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___username;
 		String_t* L_1 = ___0_user;
 		NullCheck(L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_0, L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_0, L_1);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___profileText;
 		String_t* L_3 = ___1_profileButtonText;
 		NullCheck(L_2);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_2, L_3);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_2, L_3);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___profileButton;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
@@ -10385,11 +10385,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfileUI_ClearProfile_m26190FC4F4449A78
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___username;
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
 		NullCheck(L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_0, L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_0, L_1);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___profileText;
 		String_t* L_3 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty;
 		NullCheck(L_2);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_2, L_3);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_2, L_3);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___profileButton;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;

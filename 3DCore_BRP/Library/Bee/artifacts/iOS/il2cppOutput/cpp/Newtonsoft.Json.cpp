@@ -247,11 +247,13 @@ struct JsonConverterAttribute_t8A0F4E46EC010D3F56F2CE55882AB58B0A2D9B44;
 struct JsonConverterCollection_t6EEC84565C08B14107276B5023CE9E978DFCDF89;
 struct JsonException_tFFE4BB54605E1573CD957C3A40BEC5571CC386BD;
 struct JsonExtensionDataAttribute_tF492B4EC51E6325C4CA761F373861202B4F9035E;
+struct JsonIgnoreAttribute_t9C194C4132F31C3496A2B7C90C9050BA47A34850;
 struct JsonNameTable_t0B2C7BA303E82F2C1E3C1176620FA86FA3BB611F;
 struct JsonObjectAttribute_tF1A0A8D30875A7ECC57B4B2D52C684D61D2038B9;
 struct JsonPropertyAttribute_t5EC81C65E10178A674A16272B2FF70C7AC200F48;
 struct JsonReader_tB90522FA9D4C1C218A3F2C529A27D95123847765;
 struct JsonReaderException_t44F3F6F2980FC806231B19A65F37D1E034B218DA;
+struct JsonRequiredAttribute_t1F633B359DFF6D3F0F45370D6E32B635C424F647;
 struct JsonSerializationException_t00F36890DFAC04F2FDE779151340B9C5563612EC;
 struct JsonSerializer_t3D625A6ADB5711D3C55A7CEC5F17D74260ACCB59;
 struct JsonSerializerInternalReader_tB13136F0DA95D198262A47B23B64F33590A956E5;
@@ -5347,6 +5349,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JsonExtensionDataAttribute_get_ReadData_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonIgnoreAttribute__ctor_m26883FC7D96DBF3502845CD154EB5A0BF2D694A0 (JsonIgnoreAttribute_t9C194C4132F31C3496A2B7C90C9050BA47A34850* __this, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -10164,6 +10173,13 @@ IL_0029:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonRequiredAttribute__ctor_m3EF36A5142593C04D9EC1589DFA7F3FB4EC60FF8 (JsonRequiredAttribute_t1F633B359DFF6D3F0F45370D6E32B635C424F647* __this, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

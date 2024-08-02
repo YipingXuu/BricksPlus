@@ -11336,7 +11336,7 @@ IL_000d:
 		JsonProperty_t8AC6AE6C6E97559E27739FDD2B6A3DA659FF04F3** L_4 = ___1_item;
 		NullCheck(L_2);
 		bool L_5;
-		L_5 = InterfaceFuncInvoker2< bool, String_t*, JsonProperty_t8AC6AE6C6E97559E27739FDD2B6A3DA659FF04F3** >::Invoke(6, IDictionary_2_t94B11BD7C2817E6D74203297279A0F7DAC5378A3_il2cpp_TypeInfo_var, L_2, L_3, L_4);
+		L_5 = InterfaceFuncInvoker2< bool, String_t*, JsonProperty_t8AC6AE6C6E97559E27739FDD2B6A3DA659FF04F3** >::Invoke(7, IDictionary_2_t94B11BD7C2817E6D74203297279A0F7DAC5378A3_il2cpp_TypeInfo_var, L_2, L_3, L_4);
 		return L_5;
 	}
 }
@@ -21757,7 +21757,7 @@ IL_0586_1:
 			{
 				NullCheck(G_B91_0);
 				RuntimeObject* L_267;
-				L_267 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(7, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, G_B91_0);
+				L_267 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(8, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, G_B91_0);
 				V_32 = L_267;
 			}
 			{
@@ -29511,7 +29511,7 @@ IL_009c:
 		RuntimeObject* L_40 = ___1_values;
 		NullCheck(L_40);
 		RuntimeObject* L_41;
-		L_41 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(7, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_40);
+		L_41 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(8, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_40);
 		V_3 = L_41;
 	}
 	{

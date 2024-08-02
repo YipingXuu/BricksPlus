@@ -14100,6 +14100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AvatarRenderSettings_GetParametersA
 	memset((&V_2), 0, sizeof(V_2));
 	String_t* V_3 = NULL;
 	String_t* V_4 = NULL;
+	float V_5 = 0.0f;
 	{
 		QueryBuilder_tF6178C31F6F1B8FEAE17615E624DCBED70BF4D9A* L_0 = (QueryBuilder_tF6178C31F6F1B8FEAE17615E624DCBED70BF4D9A*)il2cpp_codegen_object_new(QueryBuilder_tF6178C31F6F1B8FEAE17615E624DCBED70BF4D9A_il2cpp_TypeInfo_var);
 		QueryBuilder__ctor_m1D36EABDAF6A046FC0921BE2ACDA6DA5E7B6FDBD(L_0, NULL);
@@ -14152,7 +14153,7 @@ IL_005d:
 		List_1_t0F31DD1A65864D96DF582B1444B536FAFDE561B7* L_14 = __this->___BlendShapes;
 		if (!L_14)
 		{
-			goto IL_00c6;
+			goto IL_00c9;
 		}
 	}
 	{
@@ -14166,7 +14167,7 @@ IL_005d:
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_00b8:
+FINALLY_00bb:
 			{
 				Enumerator_Dispose_mF12DBCA10E5AD32341308496EAD5BD1D9E2D3353((&V_1), Enumerator_Dispose_mF12DBCA10E5AD32341308496EAD5BD1D9E2D3353_RuntimeMethod_var);
 				return;
@@ -14175,7 +14176,7 @@ FINALLY_00b8:
 		try
 		{
 			{
-				goto IL_00ad_1;
+				goto IL_00b0_1;
 			}
 
 IL_0073_1:
@@ -14188,31 +14189,33 @@ IL_0073_1:
 				String_t* L_20;
 				L_20 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral4A1C93C4E2BF688691E1859E77CB11FB70DAE60A, L_19, _stringLiteralE166C9564FBDE461738077E3B1B506525EB6ACCC, NULL);
 				V_3 = L_20;
-				float* L_21 = (float*)(&(&V_2)->___Value);
+				BlendShape_t810F9B789BDE7B594588EDD0F3EA045172496D0D L_21 = V_2;
+				float L_22 = L_21.___Value;
+				V_5 = L_22;
 				il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
-				CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_22;
-				L_22 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
-				String_t* L_23;
-				L_23 = Single_ToString_m534852BD7949AA972435783D7B96D0FFB09F6D6A(L_21, L_22, NULL);
-				V_4 = L_23;
-				QueryBuilder_tF6178C31F6F1B8FEAE17615E624DCBED70BF4D9A* L_24 = V_0;
-				String_t* L_25 = V_3;
-				String_t* L_26 = V_4;
-				NullCheck(L_24);
-				QueryBuilder_AddKeyValue_mDA9FDAD04A7CF076799F8CC33D107D68C9FAC4B8(L_24, L_25, L_26, NULL);
+				CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_23;
+				L_23 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
+				String_t* L_24;
+				L_24 = Single_ToString_m534852BD7949AA972435783D7B96D0FFB09F6D6A((&V_5), L_23, NULL);
+				V_4 = L_24;
+				QueryBuilder_tF6178C31F6F1B8FEAE17615E624DCBED70BF4D9A* L_25 = V_0;
+				String_t* L_26 = V_3;
+				String_t* L_27 = V_4;
+				NullCheck(L_25);
+				QueryBuilder_AddKeyValue_mDA9FDAD04A7CF076799F8CC33D107D68C9FAC4B8(L_25, L_26, L_27, NULL);
 			}
 
-IL_00ad_1:
+IL_00b0_1:
 			{
-				bool L_27;
-				L_27 = Enumerator_MoveNext_m99344556078ACCB9020EDF017466F68CDEE68560((&V_1), Enumerator_MoveNext_m99344556078ACCB9020EDF017466F68CDEE68560_RuntimeMethod_var);
-				if (L_27)
+				bool L_28;
+				L_28 = Enumerator_MoveNext_m99344556078ACCB9020EDF017466F68CDEE68560((&V_1), Enumerator_MoveNext_m99344556078ACCB9020EDF017466F68CDEE68560_RuntimeMethod_var);
+				if (L_28)
 				{
 					goto IL_0073_1;
 				}
 			}
 			{
-				goto IL_00c6;
+				goto IL_00c9;
 			}
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -14221,67 +14224,67 @@ IL_00ad_1:
 		}
 	}
 
-IL_00c6:
+IL_00c9:
 	{
-		QueryBuilder_tF6178C31F6F1B8FEAE17615E624DCBED70BF4D9A* L_28 = V_0;
+		QueryBuilder_tF6178C31F6F1B8FEAE17615E624DCBED70BF4D9A* L_29 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(RenderSettingsHelper_tB63F554F72A32E93726787DF6E3F15C7E960B163_il2cpp_TypeInfo_var);
-		String_t* L_29;
-		L_29 = RenderSettingsHelper_ToCamelCase_mC177781898CC205A7090205B6E381569849E87AE(_stringLiteral570059DAA6BA36583F759B87A49DCE91093D6090, NULL);
-		int32_t* L_30 = (int32_t*)(&__this->___Camera);
-		Il2CppFakeBox<int32_t> L_31(RenderCamera_t405D738F79808FE487EE4DD5F8F9DB1C03FCB772_il2cpp_TypeInfo_var, L_30);
-		String_t* L_32;
-		L_32 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_31), NULL);
-		NullCheck(L_32);
+		String_t* L_30;
+		L_30 = RenderSettingsHelper_ToCamelCase_mC177781898CC205A7090205B6E381569849E87AE(_stringLiteral570059DAA6BA36583F759B87A49DCE91093D6090, NULL);
+		int32_t* L_31 = (int32_t*)(&__this->___Camera);
+		Il2CppFakeBox<int32_t> L_32(RenderCamera_t405D738F79808FE487EE4DD5F8F9DB1C03FCB772_il2cpp_TypeInfo_var, L_31);
 		String_t* L_33;
-		L_33 = String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD(L_32, NULL);
-		NullCheck(L_28);
-		QueryBuilder_AddKeyValue_mDA9FDAD04A7CF076799F8CC33D107D68C9FAC4B8(L_28, L_29, L_33, NULL);
-		int32_t L_34 = __this->___Size;
-		if (L_34)
+		L_33 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_32), NULL);
+		NullCheck(L_33);
+		String_t* L_34;
+		L_34 = String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD(L_33, NULL);
+		NullCheck(L_29);
+		QueryBuilder_AddKeyValue_mDA9FDAD04A7CF076799F8CC33D107D68C9FAC4B8(L_29, L_30, L_34, NULL);
+		int32_t L_35 = __this->___Size;
+		if (L_35)
 		{
-			goto IL_00ff;
+			goto IL_0102;
 		}
 	}
 	{
 		__this->___Size = ((int32_t)800);
 	}
 
-IL_00ff:
+IL_0102:
 	{
-		QueryBuilder_tF6178C31F6F1B8FEAE17615E624DCBED70BF4D9A* L_35 = V_0;
+		QueryBuilder_tF6178C31F6F1B8FEAE17615E624DCBED70BF4D9A* L_36 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(RenderSettingsHelper_tB63F554F72A32E93726787DF6E3F15C7E960B163_il2cpp_TypeInfo_var);
-		String_t* L_36;
-		L_36 = RenderSettingsHelper_ToCamelCase_mC177781898CC205A7090205B6E381569849E87AE(_stringLiteralCE2DD04062F03563B8D362C17CDFBD5CDD6473A8, NULL);
-		int32_t* L_37 = (int32_t*)(&__this->___Size);
-		String_t* L_38;
-		L_38 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_37, NULL);
-		NullCheck(L_35);
-		QueryBuilder_AddKeyValue_mDA9FDAD04A7CF076799F8CC33D107D68C9FAC4B8(L_35, L_36, L_38, NULL);
-		bool L_39 = __this->___IsTransparent;
-		if (L_39)
+		String_t* L_37;
+		L_37 = RenderSettingsHelper_ToCamelCase_mC177781898CC205A7090205B6E381569849E87AE(_stringLiteralCE2DD04062F03563B8D362C17CDFBD5CDD6473A8, NULL);
+		int32_t* L_38 = (int32_t*)(&__this->___Size);
+		String_t* L_39;
+		L_39 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_38, NULL);
+		NullCheck(L_36);
+		QueryBuilder_AddKeyValue_mDA9FDAD04A7CF076799F8CC33D107D68C9FAC4B8(L_36, L_37, L_39, NULL);
+		bool L_40 = __this->___IsTransparent;
+		if (L_40)
 		{
-			goto IL_013d;
+			goto IL_0140;
 		}
 	}
 	{
-		QueryBuilder_tF6178C31F6F1B8FEAE17615E624DCBED70BF4D9A* L_40 = V_0;
+		QueryBuilder_tF6178C31F6F1B8FEAE17615E624DCBED70BF4D9A* L_41 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(RenderSettingsHelper_tB63F554F72A32E93726787DF6E3F15C7E960B163_il2cpp_TypeInfo_var);
-		String_t* L_41;
-		L_41 = RenderSettingsHelper_ToCamelCase_mC177781898CC205A7090205B6E381569849E87AE(_stringLiteral5230F5FD1E0998B73530AA850D3A5872D61228EC, NULL);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_42 = __this->___Background;
-		String_t* L_43;
-		L_43 = RenderSettingsHelper_FloatToRGBString_m53EA208A39D4B00E3FC6AD9F447CAB12916EC2F7(L_42, NULL);
-		NullCheck(L_40);
-		QueryBuilder_AddKeyValue_mDA9FDAD04A7CF076799F8CC33D107D68C9FAC4B8(L_40, L_41, L_43, NULL);
+		String_t* L_42;
+		L_42 = RenderSettingsHelper_ToCamelCase_mC177781898CC205A7090205B6E381569849E87AE(_stringLiteral5230F5FD1E0998B73530AA850D3A5872D61228EC, NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_43 = __this->___Background;
+		String_t* L_44;
+		L_44 = RenderSettingsHelper_FloatToRGBString_m53EA208A39D4B00E3FC6AD9F447CAB12916EC2F7(L_43, NULL);
+		NullCheck(L_41);
+		QueryBuilder_AddKeyValue_mDA9FDAD04A7CF076799F8CC33D107D68C9FAC4B8(L_41, L_42, L_44, NULL);
 	}
 
-IL_013d:
+IL_0140:
 	{
-		QueryBuilder_tF6178C31F6F1B8FEAE17615E624DCBED70BF4D9A* L_44 = V_0;
-		NullCheck(L_44);
-		String_t* L_45;
-		L_45 = QueryBuilder_get_Query_m1DA1989E3E7A7B4D70D0B0CCFD833B6A82DD4C84(L_44, NULL);
-		return L_45;
+		QueryBuilder_tF6178C31F6F1B8FEAE17615E624DCBED70BF4D9A* L_45 = V_0;
+		NullCheck(L_45);
+		String_t* L_46;
+		L_46 = QueryBuilder_get_Query_m1DA1989E3E7A7B4D70D0B0CCFD833B6A82DD4C84(L_45, NULL);
+		return L_46;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AvatarRenderSettings__ctor_mE2180003AEE8FB76B1129EFDE3F90704C818C277 (AvatarRenderSettings_t53EDEAF2F2698466B3A358535DA9C119B64885A7* __this, const RuntimeMethod* method) 
@@ -18583,7 +18586,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebugPanel_UpdateDebugPanel_m2DB0
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___logTextUI;
 		String_t* L_3 = __this->___currentLogOutput;
 		NullCheck(L_2);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_2, L_3);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_2, L_3);
 	}
 
 IL_001e:
@@ -26180,7 +26183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessagePanel_SetMessage_m6A88E0587873188
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___messageLabel;
 		String_t* L_1 = ___0_message;
 		NullCheck(L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_0, L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_0, L_1);
 		return;
 	}
 }
@@ -26198,7 +26201,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessagePanel_SetMessage_m689F850F61116D0
 		String_t* L_2;
 		L_2 = EnumHelpers_GetValue_TisMessageType_tED42E05EDED9B7DD93FE88BCD8DB4AEB76384DE6_mB9552929A7379752E7CD17BF633C29C83F67A025(L_1, EnumHelpers_GetValue_TisMessageType_tED42E05EDED9B7DD93FE88BCD8DB4AEB76384DE6_mB9552929A7379752E7CD17BF633C29C83F67A025_RuntimeMethod_var);
 		NullCheck(L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_0, L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_0, L_2);
 		return;
 	}
 }

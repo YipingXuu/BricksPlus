@@ -27,11 +27,11 @@ static Il2CppMethodPointer s_methodPointers[5] =
 };
 static const int32_t s_InvokerIndices[5] = 
 {
-	9144,
-	6076,
-	6076,
-	4897,
-	6076,
+	10432,
+	6970,
+	6970,
+	5532,
+	6970,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_ReadyPlayerMe_Samples_AvatarRenders_CodeGenModule;
 const Il2CppCodeGenModule g_ReadyPlayerMe_Samples_AvatarRenders_CodeGenModule = 

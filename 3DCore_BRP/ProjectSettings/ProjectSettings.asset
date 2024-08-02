@@ -65,7 +65,7 @@ PlayerSettings:
   allowedAutorotateToLandscapeLeft: 1
   useOSAutorotation: 1
   use32BitDisplayBuffer: 1
-  preserveFramebufferAlpha: 0
+  preserveFramebufferAlpha: 1
   disableDepthAndStencilBuffers: 0
   androidStartInFullscreen: 1
   androidRenderOutsideSafeArea: 1
@@ -604,8 +604,8 @@ PlayerSettings:
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
   cameraUsageDescription: Camera access required for target detection and tracking
-  locationUsageDescription: 
-  microphoneUsageDescription: 
+  locationUsageDescription: Location access required
+  microphoneUsageDescription: Microphone access required
   bluetoothUsageDescription: 
   macOSTargetOSVersion: 10.13.0
   switchNMETAOverride: 
@@ -1065,7 +1065,7 @@ PlayerSettings:
   cloudProjectId: 0c3be0c7-a5f5-4f22-b827-267dff0980b1
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
+  projectName: BricksPlus 2024-08-01_19-09-35
   organizationId: yiping1
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1

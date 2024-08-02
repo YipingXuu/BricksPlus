@@ -592,6 +592,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709
 IL2CPP_EXTERN_C String_t* _stringLiteralE249DDFD90EBFAAEE63734F28F6668A2FB5BD5AF;
 IL2CPP_EXTERN_C String_t* _stringLiteralE3DFC065B6A6D9931B797808DD066491AAB82B29;
 IL2CPP_EXTERN_C String_t* _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3;
+IL2CPP_EXTERN_C String_t* _stringLiteralEA11839FFA673044FF4EB9A4F59B3BC47F4144AE;
 IL2CPP_EXTERN_C String_t* _stringLiteralECC887A6FB8315456AE4F577AA0E1646BEB717E7;
 IL2CPP_EXTERN_C String_t* _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7;
 IL2CPP_EXTERN_C String_t* _stringLiteralF5272508B2E6395FDF44F8E7BE3B299EB6377D28;
@@ -8506,7 +8507,7 @@ IL_0083:
 		int32_t L_22 = ___2_count;
 		NullCheck(L_19);
 		int32_t L_23;
-		L_23 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(30, L_19, L_20, L_21, L_22);
+		L_23 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(31, L_19, L_20, L_21, L_22);
 		V_0 = L_23;
 		int64_t L_24 = __this->____lPosition;
 		int32_t L_25 = V_0;
@@ -8626,7 +8627,7 @@ IL_0083:
 		int32_t L_21 = ___1_offset;
 		int32_t L_22 = ___2_count;
 		NullCheck(L_19);
-		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33, L_19, L_20, L_21, L_22);
+		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34, L_19, L_20, L_21, L_22);
 		int64_t L_23 = __this->____lPosition;
 		int32_t L_24 = ___2_count;
 		__this->____lPosition = ((int64_t)il2cpp_codegen_add(L_23, ((int64_t)L_24)));
@@ -8703,7 +8704,7 @@ IL_006b:
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_13 = __this->____stream;
 		NullCheck(L_13);
 		int32_t L_14;
-		L_14 = VirtualFuncInvoker0< int32_t >::Invoke(32, L_13);
+		L_14 = VirtualFuncInvoker0< int32_t >::Invoke(33, L_13);
 		int64_t L_15 = __this->____lPosition;
 		__this->____lPosition = ((int64_t)il2cpp_codegen_add(L_15, ((int64_t)1)));
 		return L_14;
@@ -8753,9 +8754,41 @@ IL_0049:
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_8 = __this->____stream;
 		uint8_t L_9 = ___0_value;
 		NullCheck(L_8);
-		VirtualActionInvoker1< uint8_t >::Invoke(35, L_8, L_9);
+		VirtualActionInvoker1< uint8_t >::Invoke(36, L_8, L_9);
 		int64_t L_10 = __this->____lPosition;
 		__this->____lPosition = ((int64_t)il2cpp_codegen_add(L_10, ((int64_t)1)));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlXmlStreamWrapper_SetLength_m8A8833C0457F58A2C5F5C8629407BC741C611A1B (SqlXmlStreamWrapper_tA9F7A1E4AC5B9EA4C1963D95D14F573B55950F93* __this, int64_t ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEA11839FFA673044FF4EB9A4F59B3BC47F4144AE);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SqlXmlStreamWrapper_ThrowIfStreamClosed_mA140D1B092C241204034B6DF7F71C0696D7A27FB(__this, _stringLiteralEA11839FFA673044FF4EB9A4F59B3BC47F4144AE, NULL);
+		SqlXmlStreamWrapper_ThrowIfStreamCannotSeek_mA68A37C9695B89714F0F9D4BED8B7D6F27F584B5(__this, _stringLiteralEA11839FFA673044FF4EB9A4F59B3BC47F4144AE, NULL);
+		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_0 = __this->____stream;
+		int64_t L_1 = ___0_value;
+		NullCheck(L_0);
+		VirtualActionInvoker1< int64_t >::Invoke(30, L_0, L_1);
+		int64_t L_2 = __this->____lPosition;
+		int64_t L_3 = ___0_value;
+		if ((((int64_t)L_2) <= ((int64_t)L_3)))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		int64_t L_4 = ___0_value;
+		__this->____lPosition = L_4;
+	}
+
+IL_0032:
+	{
 		return;
 	}
 }

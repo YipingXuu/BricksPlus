@@ -10090,7 +10090,7 @@ IL_00c5:
 					ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_30 = __this->___bufBytes;
 					int32_t L_31 = __this->___bufPos;
 					NullCheck(L_29);
-					VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33, L_29, L_30, 1, ((int32_t)il2cpp_codegen_subtract(L_31, 1)));
+					VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34, L_29, L_30, 1, ((int32_t)il2cpp_codegen_subtract(L_31, 1)));
 				}
 
 IL_0022_2:

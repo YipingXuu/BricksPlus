@@ -3169,7 +3169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AvatarLodExampleUI_UpdateLodInfoPanel_m4
 		String_t* L_14;
 		L_14 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_12, NULL);
 		NullCheck(L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_0, L_14);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_0, L_14);
 		return;
 	}
 }
@@ -4030,7 +4030,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultipleQualityAvatarLoadingExample_OnAv
 		String_t* L_34;
 		L_34 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_28, NULL);
 		NullCheck(L_15);
-		VirtualActionInvoker1< String_t* >::Invoke(73, L_15, L_34);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_15, L_34);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = ___0_avatar;
 		NullCheck(L_35);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_35, _stringLiteral376E0EBF36DDF94B3FD31ADBE6EF926066EEC225, NULL);
