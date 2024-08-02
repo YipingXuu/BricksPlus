@@ -1,7 +1,0 @@
-<linker>
- <assembly fullname="UnityEngine.CoreModule">
-  <type fullname="Unity.Jobs.LowLevel.Unsafe.JobsUtility">
-   <method name="GetWorkStealingRange"/>
-  </type>
- </assembly>
-</linker>
