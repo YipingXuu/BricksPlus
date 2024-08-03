@@ -477,3 +477,705 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.17 ms, found 6 plugins.
+Preloading 4 native plugins for Editor in 14.29 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (138.8 KB). Loaded Objects now: 4739.
+Memory consumption went from 116.0 MB to 115.9 MB.
+Total: 19.489959 ms (FindLiveObjects: 0.295459 ms CreateObjectMapping: 0.084042 ms MarkObjects: 18.869417 ms  DeleteObjects: 0.240208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 221.950620 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5b0425ed3f4d3d23c3b456ebf9a28c') in 0.060570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 436
+========================================================================
+Received Import Request.
+  Time since last request: 343.230554 seconds.
+  path: Assets/Resources/Avatar1.controller
+  artifactKey: Guid(a590172ccd426485a880c88bad923a32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Avatar1.controller using Guid(a590172ccd426485a880c88bad923a32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7076048e38bb48aaae0e7481923f7b4b') in 0.209965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-16_altform-unplated.png
+  artifactKey: Guid(b46dbb2062326e14a94aebdd2046677b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.targetsize-16_altform-unplated.png using Guid(b46dbb2062326e14a94aebdd2046677b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb973f20ea08257595cd38a5a539a56f') in 0.073021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Common/Icons/UWP/StoreLogo.scale-150.png
+  artifactKey: Guid(27704801d32a1ae4986fe8b8f34dec44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/StoreLogo.scale-150.png using Guid(27704801d32a1ae4986fe8b8f34dec44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4840bda0ad45521d3678085a19cb7f4c') in 0.014559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Common/Icons/Android/Icon-48.png
+  artifactKey: Guid(6fae8ff752f494bacb3c562bed7dea2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/Android/Icon-48.png using Guid(6fae8ff752f494bacb3c562bed7dea2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61a23e60b37b19b31964043a5347f985') in 0.022559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.scale-150.png
+  artifactKey: Guid(091fffac4daad0343911afcbf36384d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.scale-150.png using Guid(091fffac4daad0343911afcbf36384d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea7a93f63910a3f06457e599c664e2b2') in 0.019268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Common/Icons/iOS/Icon-16.png
+  artifactKey: Guid(c44dfb6bebdfa40e19b0cf6ff01d8ff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-16.png using Guid(c44dfb6bebdfa40e19b0cf6ff01d8ff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80669a2ca698372ab1bd2105128a2c40') in 0.017902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001606 seconds.
+  path: Assets/Common/Icons/iOS/Icon-256.png
+  artifactKey: Guid(8cc5cc8d395f8468aafd15f2aaebb14c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-256.png using Guid(8cc5cc8d395f8468aafd15f2aaebb14c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0c997e8203fcec1ac9eb6369ffa36bd') in 0.016705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Resources/Avatar_Textures/outfit-casual-06-v2-f-bottom-D.jpg
+  artifactKey: Guid(396f5cf70f52e4a199b71525d059967d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Avatar_Textures/outfit-casual-06-v2-f-bottom-D.jpg using Guid(396f5cf70f52e4a199b71525d059967d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '03f8ee8db3c920131045844e7d7b97cf') in 0.021837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Common/Icons/iOS/Icon-20.png
+  artifactKey: Guid(f9da296bf616b458d98a63f8f7557004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-20.png using Guid(f9da296bf616b458d98a63f8f7557004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b7750437c8760c725f228b736a7ab3e') in 0.015133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Resources/Avatar_Textures/baseColor.002.jpg
+  artifactKey: Guid(e697fb5ccdb8d46d19175b0c5f4794ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Avatar_Textures/baseColor.002.jpg using Guid(e697fb5ccdb8d46d19175b0c5f4794ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b0d689af80ee10f951c906f54a825128') in 0.013912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000963 seconds.
+  path: Assets/Resources/Avatar_Textures/baseColor.001.jpg
+  artifactKey: Guid(1d24d555a2a914ceb99e1883474d7819) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Avatar_Textures/baseColor.001.jpg using Guid(1d24d555a2a914ceb99e1883474d7819) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea7d34034eb0d7e1385fb9c11db35530') in 0.020115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/SamplesResources/Scenes/0-Main.unity
+  artifactKey: Guid(a09cb257d566c489595b16ab37547666) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SamplesResources/Scenes/0-Main.unity using Guid(a09cb257d566c489595b16ab37547666) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8ba4c7025656c28b516ee0ee36d279c') in 0.003689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/Common/Icons/UWP/SplashScreen.scale-150.png
+  artifactKey: Guid(2ea158708e7a21e4ead741823fd0f8ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/SplashScreen.scale-150.png using Guid(2ea158708e7a21e4ead741823fd0f8ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3acab6bba746e3c1b61c07f4cbf9a445') in 0.025948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Common/Icons/UWP/SmallTile.scale-400.png
+  artifactKey: Guid(1c8ce7520d267cb4f8ac7faaf9fbf17f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/SmallTile.scale-400.png using Guid(1c8ce7520d267cb4f8ac7faaf9fbf17f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7db24bcd4176eb808c40a504999b7c3') in 0.013694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Common/Icons/iOS/Icon-180.png
+  artifactKey: Guid(73c9e6fc8fd374b119e143a8bc52bf28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-180.png using Guid(73c9e6fc8fd374b119e143a8bc52bf28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a0a7c3262737b78a6383c621a7e9245') in 0.015303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Common/Icons/iOS/Icon-87.png
+  artifactKey: Guid(dd034f60ad00b407089fd2248eb2bae0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-87.png using Guid(dd034f60ad00b407089fd2248eb2bae0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a5638bf2e6eb973e9e0cb809f68d29a4') in 0.024624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Common/Icons/UWP/StoreLogo.scale-200.png
+  artifactKey: Guid(14ed6a767043d254e8d6a07c030bc02d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/StoreLogo.scale-200.png using Guid(14ed6a767043d254e8d6a07c030bc02d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'abdc2a400044b93903d9599596708789') in 0.013378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x081.png
+  artifactKey: Guid(7b3a41568325b49058f0f996eb569a3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x081.png using Guid(7b3a41568325b49058f0f996eb569a3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '591677f5ed04ca633542d8d8c12897bb') in 0.014984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x108.png
+  artifactKey: Guid(aebd9fdb8f30d4d18b318f4312877849) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x108.png using Guid(aebd9fdb8f30d4d18b318f4312877849) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ee195d7957719e8d530a202b24488f6f') in 0.021392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x162.png
+  artifactKey: Guid(96655ac7a5e9f46d0af3ba32b5ce1d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x162.png using Guid(96655ac7a5e9f46d0af3ba32b5ce1d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9d2c4c54dd9b8cead81502c5c0ff8da3') in 0.017428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Common/Icons/iOS/Icon-196.png
+  artifactKey: Guid(38c9f8f898d5a461397639d3a61e1428) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-196.png using Guid(38c9f8f898d5a461397639d3a61e1428) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5601e0f92ce334c77e7cf009a67fcf4d') in 0.014293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Common/Icons/iOS/Icon-120.png
+  artifactKey: Guid(e5d044c008db542bf8371f7e7c91bb50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-120.png using Guid(e5d044c008db542bf8371f7e7c91bb50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b80996d01ecbdab9926aa948238038d') in 0.016849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Common/Icons/UWP/Wide310x150Logo.scale-100.png
+  artifactKey: Guid(66275db5940e89a46b8970064027b905) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Wide310x150Logo.scale-100.png using Guid(66275db5940e89a46b8970064027b905) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a376132e6299fa6ff636a45596e80e48') in 0.013526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/SamplesResources/Scenes/LightingSettings.lighting
+  artifactKey: Guid(3a3ceb17604d1497e91de48a247bf38c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SamplesResources/Scenes/LightingSettings.lighting using Guid(3a3ceb17604d1497e91de48a247bf38c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) The Progressive CPU lightmapper is not supported on Apple silicon, switching to the Progressive GPU lightmapper.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:290)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:209)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexEntryImporter.cs:59)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
+
+[/Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 290]
+
+LightingSettings: switching bake backend from 2 to 1.
+ -> (artifact id: 'd09eb9c51904b6fb6a79921faad0a928') in 0.019087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.scale-125.png
+  artifactKey: Guid(80c6bdebc69e9c44c829e3bca05b8c70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.scale-125.png using Guid(80c6bdebc69e9c44c829e3bca05b8c70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29e280dac3e7cd0ce1fb1525bee75df5') in 0.017416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Common/Icons/iOS/Icon-100.png
+  artifactKey: Guid(65c4e7c74b99141b58dfa4d259a65444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-100.png using Guid(65c4e7c74b99141b58dfa4d259a65444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8bcfd00625beab2b193ff53569ddc91f') in 0.016447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Resources/Avatar_Textures/glasses_id_20_D.png
+  artifactKey: Guid(52f51c6aa5914450ba730c51aea1e6b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Avatar_Textures/glasses_id_20_D.png using Guid(52f51c6aa5914450ba730c51aea1e6b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '24b1f0e76966afe3465b2c05d63eb6a4') in 0.014027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-16.png
+  artifactKey: Guid(252aa525693f1c64382ad3f55d1adb50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.targetsize-16.png using Guid(252aa525693f1c64382ad3f55d1adb50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '019255b6bd2e901223a7815945791dff') in 0.016813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.scale-400.png
+  artifactKey: Guid(2f72818680a7de34b9781c7d8c6cad7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.scale-400.png using Guid(2f72818680a7de34b9781c7d8c6cad7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e977ea448541b5488734b769f58c2f5') in 0.019651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-48_altform-unplated.png
+  artifactKey: Guid(01630fb6c9cbff04b98f7702a691ab5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.targetsize-48_altform-unplated.png using Guid(01630fb6c9cbff04b98f7702a691ab5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '14f52d0396c8d311cbd6c2265cf4b4ba') in 0.019567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Resources/Avatar_Textures/outfit-casual-06-v2-f-bottom-N.jpg
+  artifactKey: Guid(021365ee40fc24a1a83e72732b0b2ccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Avatar_Textures/outfit-casual-06-v2-f-bottom-N.jpg using Guid(021365ee40fc24a1a83e72732b0b2ccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ca9bbac358159708876222ff02cf31a') in 0.014382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Resources/Avatar_Textures/har-84-N.jpg
+  artifactKey: Guid(75c2577c7d9da4f4ab34ab085839bd71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Avatar_Textures/har-84-N.jpg using Guid(75c2577c7d9da4f4ab34ab085839bd71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94d508e92b5af7ec328c51a38a407012') in 0.017217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.scale-100.png
+  artifactKey: Guid(05c52f9c5a216444c868677a0e02efb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.scale-100.png using Guid(05c52f9c5a216444c868677a0e02efb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f13f80eb151a0f6cbc4ce7e7d29f3c6') in 0.014667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.scale-200.png
+  artifactKey: Guid(4c41704d78ea087419cec275d1d97a5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.scale-200.png using Guid(4c41704d78ea087419cec275d1d97a5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f32659231a113b4053c019e8ab492328') in 0.016995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Common/Icons/UWP/Square150x150Logo.scale-125.png
+  artifactKey: Guid(ab4a3d6b552794745ad6d98f0f0c0033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square150x150Logo.scale-125.png using Guid(ab4a3d6b552794745ad6d98f0f0c0033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b2d626cb06db46c7de62016dda30910') in 0.019987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Common/Icons/UWP/Wide310x150Logo.scale-400.png
+  artifactKey: Guid(ce3b068c63fb047449250bb59bb1c401) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Wide310x150Logo.scale-400.png using Guid(ce3b068c63fb047449250bb59bb1c401) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '362ad7bcd557397a43a45b267f3bdeee') in 0.042124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-24.png
+  artifactKey: Guid(6a6b79f5650d25f42ac759d805690a0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.targetsize-24.png using Guid(6a6b79f5650d25f42ac759d805690a0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c71302feef8769612151afd2e6bbe2df') in 0.029247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007284 seconds.
+  path: Assets/Common/Icons/iOS/Icon-172.png
+  artifactKey: Guid(9caa22d79a15a41e8affca63c0536a07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-172.png using Guid(9caa22d79a15a41e8affca63c0536a07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4daf259c1c212247c8a3da278572deee') in 0.047288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005151 seconds.
+  path: Assets/Resources/Avatar_Textures/outfit-casual-06-v2-f-top-D.jpg
+  artifactKey: Guid(10a04a3790f8d4b7c94ff9117acdee63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Avatar_Textures/outfit-casual-06-v2-f-top-D.jpg using Guid(10a04a3790f8d4b7c94ff9117acdee63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '736b562d135ead1d005c43542f28c4a6') in 0.031348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001086 seconds.
+  path: Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_AO.mat
+  artifactKey: Guid(c165210d65b792042aabe3a37061f5c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_AO.mat using Guid(c165210d65b792042aabe3a37061f5c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dfbc7ca706ff08a4d551fafc675a8545') in 0.050342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/ForeGround_x432.png
+  artifactKey: Guid(44f5763023bff4d3dbfb13b858cff6ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/ForeGround_x432.png using Guid(44f5763023bff4d3dbfb13b858cff6ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '69b6ef7e436774fbab014b094db58049') in 0.039473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/LEGO_Project/cover_scaled.jpg
+  artifactKey: Guid(74c6c49809e949fe9aa265aa89465129) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/LEGO_Project/cover_scaled.jpg using Guid(74c6c49809e949fe9aa265aa89465129) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '848788a9ccaf633d89eb00495f5e02b5') in 0.059557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_Albedo.mat
+  artifactKey: Guid(8076f5fb1e4d4a542be9cd6a39d24026) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_Albedo.mat using Guid(8076f5fb1e4d4a542be9cd6a39d24026) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec74402fd83998535be6c04d3b0f6e8f') in 0.093793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Astronaut_AO.png
+  artifactKey: Guid(d7b0115a70b17034594c343b58769b82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Astronaut_AO.png using Guid(d7b0115a70b17034594c343b58769b82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '102a9281025ceffdd68b72c651ed010d') in 0.017183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Common/Icons/UWP/StoreLogo.scale-400.png
+  artifactKey: Guid(4f570e58f5db8b54aaef3d6295101b95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/StoreLogo.scale-400.png using Guid(4f570e58f5db8b54aaef3d6295101b95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a465e0785ab3de0c23e27a446404309d') in 0.018712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Common/Icons/UWP/Square150x150Logo.scale-100.png
+  artifactKey: Guid(7eca3d19b080dd544a88b979ec2afe03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square150x150Logo.scale-100.png using Guid(7eca3d19b080dd544a88b979ec2afe03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e2e837e2365c3aa6fafd547a97f5471b') in 0.021866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Common/Icons/UWP/LargeTile.scale-100.png
+  artifactKey: Guid(7178846d9e148114fa77596ba389de00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/LargeTile.scale-100.png using Guid(7178846d9e148114fa77596ba389de00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f478e69d6dd2e5eada1b24929cfb46fa') in 0.018518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Common/Icons/iOS/Icon-55.png
+  artifactKey: Guid(b17260949918c406b99342d1c02995ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-55.png using Guid(b17260949918c406b99342d1c02995ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '32353c8728e0c067256a47dff5b4eeef') in 0.025613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/ForeGround_x081.png
+  artifactKey: Guid(626c896dc88974a9fb360ba573bb43e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/ForeGround_x081.png using Guid(626c896dc88974a9fb360ba573bb43e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9f55a125c6496ceca55c87882e2c09b3') in 0.025760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/Common/Icons/iOS/Icon-72.png
+  artifactKey: Guid(a60549db96b2842fe9035b4880bfa6bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-72.png using Guid(a60549db96b2842fe9035b4880bfa6bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '996aeac40597ad32aed2360dbcc6db35') in 0.027723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Common/Icons/iOS/Icon-512.png
+  artifactKey: Guid(d009bdac2bfb64f73a7d01d12af11139) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-512.png using Guid(d009bdac2bfb64f73a7d01d12af11139) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e1e640a3a3137afe1bf80e2d5a3c5d0') in 0.027729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Common/Icons/iOS/Icon-60.png
+  artifactKey: Guid(83a6483f53e5f448a84f14d9e27ee822) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-60.png using Guid(83a6483f53e5f448a84f14d9e27ee822) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a30405bc4c2ca67def68a8b0fa8392d5') in 0.022404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Common/Icons/iOS/Icon-57.png
+  artifactKey: Guid(8f0cac86f23b94d7693801136041165e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-57.png using Guid(8f0cac86f23b94d7693801136041165e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bec3147f418ca0876525b42d7e4b3e55') in 0.024049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-256.png
+  artifactKey: Guid(c9b698102d59dfd46a1376fe318163ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/Square44x44Logo.targetsize-256.png using Guid(c9b698102d59dfd46a1376fe318163ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b79e32679b3cf0189aece2f00b01be73') in 0.018546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Common/Icons/UWP/LargeTile.scale-400.png
+  artifactKey: Guid(6400f3e497c2f9b4ab56e9855ba71c97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/LargeTile.scale-400.png using Guid(6400f3e497c2f9b4ab56e9855ba71c97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de27df56d80470265eb6484000340b94') in 0.019640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Common/Icons/iOS/Icon-144.png
+  artifactKey: Guid(fe2bd0f39a09244c993553fc1df45073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-144.png using Guid(fe2bd0f39a09244c993553fc1df45073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '93204deb38b49615faffdd15806e520c') in 0.025848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Common/Icons/iOS/Icon-29.png
+  artifactKey: Guid(ead39ea5b70b3401090170549ec78dda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-29.png using Guid(ead39ea5b70b3401090170549ec78dda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '17f4e0b65c7366578b38af6a3d689e1d') in 0.023386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Common/Icons/iOS/Icon-152.png
+  artifactKey: Guid(6cb233dc65f0b459daf2ad80d17034da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-152.png using Guid(6cb233dc65f0b459daf2ad80d17034da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae98555b1ffa933b6855ff319ab76670') in 0.022100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Common/Icons/UWP/SplashScreen.scale-100.png
+  artifactKey: Guid(de5a9ac105040ee4c8837f65201981bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/SplashScreen.scale-100.png using Guid(de5a9ac105040ee4c8837f65201981bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1af2134fa871aba8599b388f3e4433d0') in 0.029071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Common/Icons/UWP/SplashScreen.scale-200.png
+  artifactKey: Guid(8e614c22e974d9f429f920990d61ef52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/SplashScreen.scale-200.png using Guid(8e614c22e974d9f429f920990d61ef52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e84e43234b5da715176fef5335d0f514') in 0.022047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed161e2faa121b7011da84453e676819') in 0.073449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 436
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Common/Icons/UWP/SplashScreen.scale-125.png
+  artifactKey: Guid(1f3678bd16e407946824f7f20e6e513d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/SplashScreen.scale-125.png using Guid(1f3678bd16e407946824f7f20e6e513d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a794d44139c5a520911898e9b7f7f177') in 0.031121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Astronaut_Albedo.png
+  artifactKey: Guid(22eb7c4ce33ed974fa99aaf076c78f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SamplesResources/AugmentationAssets/Textures/Astronaut/Astronaut_Albedo.png using Guid(22eb7c4ce33ed974fa99aaf076c78f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ce8f3f1a65194db7ffb7e4bb08c1ece') in 0.021048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Resources/Avatar_Textures/outfit-casual-06-v2-f-footwear-N.jpg
+  artifactKey: Guid(5d62d8041c1b24337ae1a94aafd8813a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Avatar_Textures/outfit-casual-06-v2-f-footwear-N.jpg using Guid(5d62d8041c1b24337ae1a94aafd8813a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ff9172d8de6d56e8d5d54db1c3e23da') in 0.018516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x216.png
+  artifactKey: Guid(ad05b3745e8844194bae1994e47cd9b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/Android/AdaptiveIcons/BackGround_x216.png using Guid(ad05b3745e8844194bae1994e47cd9b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1193a5d82eac2a69a7400120ed091948') in 0.023351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Common/Icons/iOS/Icon-114.png
+  artifactKey: Guid(4425ccef1413140a09233e0eba47657d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/iOS/Icon-114.png using Guid(4425ccef1413140a09233e0eba47657d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ff5b851bde4207d2414ac2b8cf4d074') in 0.026847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Common/Icons/UWP/SmallTile.scale-200.png
+  artifactKey: Guid(dc0c88983e4b2ff4d83f33cc3b907c74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/SmallTile.scale-200.png using Guid(dc0c88983e4b2ff4d83f33cc3b907c74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8f2c44965520b626f879459aba27724') in 0.020484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Common/Icons/UWP/SmallTile.scale-150.png
+  artifactKey: Guid(51bc692c6beb5914b8d8c75c01d6ceee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/UWP/SmallTile.scale-150.png using Guid(51bc692c6beb5914b8d8c75c01d6ceee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3530efbd7bd0dda15fbd16ffb789f7df') in 0.024913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Common/Icons/Android/Icon-512.png
+  artifactKey: Guid(8d26e2b0041c2447d9888ac10b3aaf03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Common/Icons/Android/Icon-512.png using Guid(8d26e2b0041c2447d9888ac10b3aaf03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6704cceac740c9748a65eb85211417c0') in 0.031052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.65 ms, found 6 plugins.
+Preloading 4 native plugins for Editor in 9.51 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (178.2 KB). Loaded Objects now: 4741.
+Memory consumption went from 121.6 MB to 121.5 MB.
+Total: 41.103208 ms (FindLiveObjects: 0.894250 ms CreateObjectMapping: 0.156958 ms MarkObjects: 39.771791 ms  DeleteObjects: 0.278792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 510.003231 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b90151a4b705fe8aa988c291218b80d3') in 0.121164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.97 ms, found 6 plugins.
+Preloading 4 native plugins for Editor in 20.83 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (130.4 KB). Loaded Objects now: 4741.
+Memory consumption went from 121.4 MB to 121.3 MB.
+Total: 77.958375 ms (FindLiveObjects: 0.870375 ms CreateObjectMapping: 0.341167 ms MarkObjects: 75.538542 ms  DeleteObjects: 1.207333 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 590.026115 seconds.
+  path: Assets/StreamingAssets/Vuforia/LEGO_Project.dat
+  artifactKey: Guid(77900e345ddc4d7eb9b0c9dc6bf0c4de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StreamingAssets/Vuforia/LEGO_Project.dat using Guid(77900e345ddc4d7eb9b0c9dc6bf0c4de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1c66bf2567f53f3af7672aa259bc17d') in 0.052195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/StreamingAssets/Vuforia/LEGO_Project.xml
+  artifactKey: Guid(43a92e9ebe9044a0b87c3c602ea28c78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StreamingAssets/Vuforia/LEGO_Project.xml using Guid(43a92e9ebe9044a0b87c3c602ea28c78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '211bba2a062058080a75dda0341f0f13') in 0.005271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/LEGO_Project/Lego_plant_scaled.jpg
+  artifactKey: Guid(4968c6fd2a104323981b490ad6ba2b0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/LEGO_Project/Lego_plant_scaled.jpg using Guid(4968c6fd2a104323981b490ad6ba2b0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f12048170ba919305c77c1e55e5eb8bb') in 0.058273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 42.625391 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '084f3de7f0004d99f95aa382d0b0fbc4') in 0.028565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.71 ms, found 6 plugins.
+Preloading 4 native plugins for Editor in 12.99 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (138.3 KB). Loaded Objects now: 4741.
+Memory consumption went from 121.2 MB to 121.1 MB.
+Total: 21.694458 ms (FindLiveObjects: 0.585167 ms CreateObjectMapping: 0.125042 ms MarkObjects: 20.741375 ms  DeleteObjects: 0.242083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

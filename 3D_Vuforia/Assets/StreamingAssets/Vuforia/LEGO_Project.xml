@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
-    <ImageTarget name="cover2" size="1.000000 1.000000" />
-    <ImageTarget name="cover" size="1.000000 0.750000" />
-    <ImageTarget name="succulent2" size="1.000000 1.333168" />
+    <ImageTarget name="Lego_plant" size="1.000000 0.666571" />
+    <ImageTarget name="cactus" size="1.000000 1.468819" />
   </Tracking>
 </QCARConfig>
